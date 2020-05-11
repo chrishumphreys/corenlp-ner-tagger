@@ -30,3 +30,19 @@ Adjacent words with the same label are considered to be the same entity.
 
 The labels are currently hardcoded.
 The tool doesn't support save and resume, you need to complete the file in one sitting.
+
+
+## Installation
+
+Unix:
+
+Any Python 3.X should already have the curses module installed.
+
+Windows:
+
+Install Python 3.X. You also need to install the windows-curses module.
+
+``` bash
+python -m pip install windows-curses
+```
+
